@@ -1,16 +1,16 @@
-ToDo-List
-	<html><font size="7">📋</font> Statuses</html>
-		Status::>>P:Status::<html><font size="6">📝</font> Planned</html>
-		Status::>>P:Status::<html><font size="6">🛫</font> Started</html>
-		Status::>>P:Status::<html><font size="6">⌛</font> In progress</html>
-		Status::>>P:Status::<html><font size="6">✅</font> Finished</html>
-		Status::>>P:Status::<html><font size="6">🚫</font> Canceled</html>
-	<html><font size="7">🧑‍🤝‍🧑</font> Employees</html>
-		Employee::>>P:Worker::<html><font size="6">👨‍💻</font> Frank</html>
-		Employee::>>P:Worker::<html><font size="6">🤵</font> Adrian</html>
-		Employee::>>P:Worker::<html><font size="6">👩‍🔬</font> Jane</html>
-		Employee::>>P:Worker::<html><font size="6">👨‍🔧</font> Peter</html>
-	<html><font size="7">📋</font> Tasks</html>
+Root::ToDo-List
+	Topic::<html><font size="7">📋</font> Statuses</html>
+		Status::Status[Status]>>P:Status::<html><font size="6">📝</font> Planned</html>
+		Status::Status[Status]>>P:Status::<html><font size="6">🛫</font> Started</html>
+		Status::Status[Status]>>P:Status::<html><font size="6">⌛</font> In progress</html>
+		Status::Status[Status]>>P:Status::<html><font size="6">✅</font> Finished</html>
+		Status::Status[Status]>>P:Status::<html><font size="6">🚫</font> Canceled</html>
+	Topic::<html><font size="7">🧑‍🤝‍🧑</font> Employees</html>
+		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👨‍💻</font> Frank</html>
+		Employee::Worker[Worker]>>P:Worker::<html><font size="6">🤵</font> Adrian</html>
+		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👩‍🔬</font> Jane</html>
+		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👨‍🔧</font> Peter</html>
+	Topic::<html><font size="7">📋</font> Tasks</html>
 		TaskCategory::<html><font size="6">🧑‍💼</font> Working</html>
 			Task::<html><font size="6">📞</font> Call customer</html>
 			Task::<html><font size="6">💻</font> Write letter</html>
@@ -27,7 +27,7 @@ ToDo-List
 			Task::<html><font size="6">🍲</font> Breakfast</html>
 				Subtask::<html><font size="6">🍞</font> Bread</html>
 				Subtask::<html><font size="6">🥐</font> Croissant</html>
-				Subtask::<html><font size="6">🥨</font> Croissant</html>
+				Subtask::<html><font size="6">🥨</font> Brezel</html>
 			Task::<html><font size="6">🍲</font> Dinner</html>
 				Subtask::<html><font size="6">🥩</font> Meat</html>
 				Subtask::<html><font size="6">🥪</font> Sandwich</html>
