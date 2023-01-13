@@ -1,34 +1,34 @@
 Root::ToDo-List
-	Topic::<html><font size="7">📋</font> Statuses</html>
-		Status::Status[Status]>>P:Status::<html><font size="6">📝</font> Planned</html>
-		Status::Status[Status]>>P:Status::<html><font size="6">🛫</font> Started</html>
-		Status::Status[Status]>>P:Status::<html><font size="6">⌛</font> In progress</html>
-		Status::Status[Status]>>P:Status::<html><font size="6">✅</font> Finished</html>
-		Status::Status[Status]>>P:Status::<html><font size="6">🚫</font> Canceled</html>
-	Topic::<html><font size="7">🧑‍🤝‍🧑</font> Employees</html>
-		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👨‍💻</font> Frank</html>
-		Employee::Worker[Worker]>>P:Worker::<html><font size="6">🤵</font> Adrian</html>
-		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👩‍🔬</font> Jane</html>
-		Employee::Worker[Worker]>>P:Worker::<html><font size="6">👨‍🔧</font> Peter</html>
-	Topic::<html><font size="7">📋</font> Tasks</html>
-		TaskCategory::<html><font size="6">🧑‍💼</font> Working</html>
-			Task::<html><font size="6">📞</font> Call customer</html>
-			Task::<html><font size="6">💻</font> Write letter</html>
-			Task::<html><font size="6">💾</font> Make backup</html>
-		TaskCategory::<html><font size="6">🦉</font> Learning</html>
-			Task::<html><font size="6">📚</font> Read Book</html>
-			Task::<html><font size="6">📺</font> Watch tutorial on YouTube</html>
-			Task::<html><font size="6">🎓</font> Attend course</html>
-		TaskCategory::<html><font size="6">🏃</font> Body Workouts</html>
-			Task::<html><font size="6">💪</font> Weight training</html>
-			Task::<html><font size="6">🏌</font> Play golf</html>
-			Task::<html><font size="6">🏊</font> Go swimming</html>
-		TaskCategory::<html><font size="6">🛒</font> Shopping</html>
-			Task::<html><font size="6">🍲</font> Breakfast</html>
-				Subtask::<html><font size="6">🍞</font> Bread</html>
-				Subtask::<html><font size="6">🥐</font> Croissant</html>
-				Subtask::<html><font size="6">🥨</font> Brezel</html>
-			Task::<html><font size="6">🍲</font> Dinner</html>
-				Subtask::<html><font size="6">🥩</font> Meat</html>
-				Subtask::<html><font size="6">🥪</font> Sandwich</html>
-				Subtask::<html><font size="6">🍔</font> Hamburger</html>
+	Topic::📋 Statuses
+		Status::Status[Status]>>P:Status::📝 Planned
+		Status::Status[Status]>>P:Status::🛫 Started
+		Status::Status[Status]>>P:Status::⌛ In progress
+		Status::Status[Status]>>P:Status::✅ Finished
+		Status::Status[Status]>>P:Status::🚫 Canceled
+	Topic::🧑‍🤝‍🧑 Employees
+		Employee::Worker[Worker]>>P:Worker::👨‍💻 Frank
+		Employee::Worker[Worker]>>P:Worker::🤵 Adrian
+		Employee::Worker[Worker]>>P:Worker::👩‍🔬 Jane
+		Employee::Worker[Worker]>>P:Worker::👨‍🔧 Peter
+	Topic::📋 Tasks
+		TaskCategory::🧑‍💼 Working
+			Task::📞 Call customer
+			Task::💻 Write letter
+			Task::💾 Make backup
+		TaskCategory::🦉 Learning
+			Task::📚 Read Book
+			Task::📺 Watch tutorial on YouTube
+			Task::🎓 Attend course
+		TaskCategory::🏃 Body Workouts
+			Task::💪 Weight training
+			Task::🏌 Play golf
+			Task::🏊 Go swimming
+		TaskCategory::🛒 Shopping
+			Task::🍲 Breakfast
+				Subtask::🍞 Bread
+				Subtask::🥐 Croissant
+				Subtask::🥨 Brezel
+			Task::🍲 Dinner
+				Subtask::🥩 Meat
+				Subtask::🥪 Sandwich
+				Subtask::🍔 Hamburger
