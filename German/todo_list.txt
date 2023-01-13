@@ -1,0 +1,34 @@
+Wurzel::ToDo-Liste
+	Thema::📋 Status
+		Status::Status[Status]>>P:Status::📝 Geplant
+		Status::Status[Status]>>P:Status::🛫 Gestartet
+		Status::Status[Status]>>P:Status::⌛ In Arbeit
+		Status::Status[Status]>>P:Status::✅ Beendet
+		Status::Status[Status]>>P:Status::🚫 Abgebrochen
+	Thema::🧑‍🤝‍🧑 Mitarbeiter
+		Mitarbeiter::Mitarbeiter[Mitarbeiter]>>P:Mitarbeiter::👨‍💻 Frank
+		Mitarbeiter::Mitarbeiter[Mitarbeiter]>>P:Mitarbeiter::🤵 Adrian
+		Mitarbeiter::Mitarbeiter[Mitarbeiter]>>P:Mitarbeiter::👩‍🔬 Jane
+		Mitarbeiter::Mitarbeiter[Mitarbeiter]>>P:Mitarbeiter::👨‍🔧 Peter
+	Thema::📋 Aufgaben
+		Aufgabenkategorie::🧑‍💼 Arbeit
+			Aufgabe::📞 Kunde anrufen
+			Aufgabe::💻 Brief schreiben
+			Aufgabe::💾 Sicherungskopie erstellen
+		Aufgabenkategorie::🦉 Fortbildung
+			Aufgabe::📚 Buch lesen
+			Aufgabe::📺 Tutorial auf YouTube anschauen
+			Aufgabe::🎓 An Kurs teilnehmen
+		Aufgabenkategorie::🏃 Fitnessübungen
+			Aufgabe::💪 Krafttraining
+			Aufgabe::🏌 Golf spielen
+			Aufgabe::🏊 Schwimmen
+		Aufgabenkategorie::🛒 Einkaufen
+			Aufgabe::🍲 Frühstück
+				Unteraufgabe::🍞 Brot
+				Unteraufgabe::🥐 Croissant
+				Unteraufgabe::🥨 Bretzel
+			Aufgabe::🍲 Mittagessen
+				Unteraufgabe::🥩 Fleisch
+				Unteraufgabe::🥪 Sandwich
+				Unteraufgabe::🍔 Hamburger
